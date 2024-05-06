@@ -19,7 +19,11 @@
  (name ztl)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends 
+  ocaml
+  dune
+  (yojson (= 2.1.0))
+  minttea)
  (tags
   (topics "to describe" your project)))
 
