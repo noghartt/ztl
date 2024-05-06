@@ -1,0 +1,1 @@
+val make_store : unit -> unit

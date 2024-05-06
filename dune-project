@@ -5,15 +5,13 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github noghartt/ztl))
 
-(authors "Author Name")
+(authors "Guilherme Ananias")
 
-(maintainers "Maintainer Name")
+(maintainers "Guilherme Ananias")
 
 (license LICENSE)
-
-(documentation https://url/to/documentation)
 
 (package
  (name ztl)
@@ -23,8 +21,7 @@
   ocaml
   dune
   (yojson (= 2.1.0))
-  minttea)
- (tags
-  (topics "to describe" your project)))
+  ppx_deriving_yojson
+  minttea))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

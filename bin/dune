@@ -1,4 +1,4 @@
 (executable
  (public_name ztl)
  (name main)
- (libraries minttea leaves spices))
+ (libraries ztl minttea leaves spices))
